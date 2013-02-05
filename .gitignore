@@ -1,0 +1,6 @@
+tmp
+/build/
+/*.tmproj
+*.class
+*.pyc
+*.pyo

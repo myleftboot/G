@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset=utf-8 />
+<meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0;">
+<link rel="stylesheet" href="css/style.css"  type="text/css" media="screen" />
+<script type="text/javascript" charset="utf-8" src="js/smooth.js"></script>
+</head>
+<body>
+
+<!-- start content -->
+
+<section id="content">
+	<h1>
+	<strong>In this section (OCR/Edexcel)</strong> • 
+		<nav>
+			<a href="#link1">healthy diet (AQA)</a> • <a href="#link2">energy needs (AQA)</a> • <a href="#link3">metabolic rate (AQA)</a> • <a href="#link4">our weight (AQA)</a> • <a href="#link5">diabetes (Edexcel)</a> •
+		</nav>
+	</h1>
+
+	<h2 id="link1">A healthy diet (AQA)</h2>
+	<ul>
+		<li>A healthy diet contains minerals, vitamins, fibre, carbohydrate, protein, fat, and water.</li> 
+        <li>Together these provide a balanced diet, giving energy, building new cells, protecting us against disease.</li> 
+        <li>An unbalanced diet results in malnourishment, which may lead to illness, e.g. deficiency diseases, which are caused by lack of minerals and vitamins.
+        <figure>
+			<img src="assets/images/1.1.1-Sardine_photo4_exp.jpg" alt="" > <figcaption><em>Sardines are an excellent source of omega-3 fatty acids, which are essential for our bodies to function properly</em></figcaption>
+		</figure></li>       
+	</ul>
+	
+
+	<h2 id="link2">Our energy needs vary (AQA)</h2>
+	<ul>
+		<li>Food gives us energy to live and move. The more exercise we do, the more food we need (and vice versa).</li>
+        <li>Our energy needs vary according to our age, sex, location. We generally need more energy if we are young, or pregnant, or live in a cold climate.</li>
+        <li>Muscle burns more energy than fat. Exercise gives us more muscle mass; athletes therefore need more energy.</li>
+        <li>Exercise is not always athletic; vigorous household chores and walking are also exercise.</li>
+	</ul>
+ 
+	
+	<h2 id="link3">Our metabolic rates vary (AQA)</h2>
+	<ul>
+		<li>Metabolic rate is the rate at which chemical reactions occur in cells of the body.</li>
+        <li>Metabolic rate increases with exercise, and in colder climates, and with higher muscle content in the body.</li>
+        <li>Two people who do the same amount of exercise and are the same sex, age, and weight may have different metabolic rates: their metabolic rate is partly inherited from their parents.</li>
+        <li>Men usually have a higher metabolic rate than women because they usually have proportionately more muscle than fat.</li>
+    </ul>
+	
+    
+    <h2 id="link4">Our weight (AQA)</h2>
+	<ul>
+        <li>If our food gives us more energy than we use, the extra energy is stored in our bodies as fat. We can become overweight, or even obese.</li>
+        <li>Being overweight increases our risk of heart disease, high blood pressure, arthritis and type 2 diabetes (excessively high blood sugar levels).</li>
+        <li>However, some fat is essential to a balanced diet: it is a store of energy for ‘emergency’ use and cushions our organs.</li>
+        <li>We can look slimmer by exercising more and through slimming regimes.</li>
+        <li>‘Slimming’ and ‘losing weight’ - exercise may help us to slim, at the same time our weight may not change much: exercise builds muscle; muscle weighs more than fat.</li>
+        <li>In some parts of the world drought, war and pests mean that people’s food gives them less energy than they need, and/or less food of the right type, leading to malnourishment.</li>
+		<li><strong>Malnourishment</strong> can mean both eating too much and eating too little (of the right foods at the right amount). The term ‘weight problem’ therefore has two meanings.
+        <figure>
+			<img src="assets/images/1.1.2-1280px-Rafa_Nadal_australian_open_2009.jpg" alt="" > <figcaption><em>A top athlete like Rafa Nadal may be slim yet relatively heavy for his height, because of his significant muscle mass</em></figcaption>
+		</figure></li>
+    </ul>
+	
+    
+    <h2 id="link5">Diabetes (Edexcel)</h2>
+	<ul>
+		<li>Diabetes is a disease where the sufferer has difficulty controlling their blood glucose levels. This is caused by a lack of <strong>insulin</strong>, an important hormone in the blood.</li>
+        <li>High blood glucose can cause abnormal urination, thirst and tiredness.</li>
+        <li>Type 1 diabetes can be controlled by injections of insulin into the sufferer’s subcutaneous fat: the fat easily absorbs insulin and moves it into the patient’s blood.</li>
+        <li>Type 2 diabetes is diagnosed when a patient’s cells are less responsive to insulin than they should be (more resistant to it), even if insulin is being produced (this occurs in the pancreas).</li>
+        <li>Type 2 diabetes is thought to be caused by modern lifestyles - high fat diets, lack of exercise, <strong>obesity</strong>- and by ageing. It is usually characterised by high blood glucose levels.</li>
+        <li>A person is obese when their <strong>Body Mass Index</strong>(BMI) is over 30:
+           <br/>
+           <p align="center">weight (kg)
+           <br/>BMI =   <sup> __________________   </sup>
+           <br/>        height<sup>2</sup> (m)
+           </p>
+            </li>
+		<li>Both Type 1 and Type 2 diabetes can be partly controlled through diet and physical exercise/activity. Exercise reduces the amount of insulin a person needs to control their blood sugar levels.</li>        
+    </ul>
+	
+</section>
+
+<!-- end content -->
+ 
+<script type="text/javascript" charset="utf-8">
+	window.onload =  function() {
+		Ti.App.fireEvent('page_loaded',{});
+		var video = document.getElementById('video');
+
+		video.addEventListener('click',function(){
+			Ti.App.fireEvent('play_clip',{});
+		},false);
+	}
+</script>
+
+</body>
+</html>
