@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset=utf-8 />
+<meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0;">
+<link rel="stylesheet" href="css/style.css"  type="text/css" media="screen" />
+<script type="text/javascript" charset="utf-8" src="js/smooth.js"></script>
+</head>
+<body>
+
+<!-- start content -->
+
+<section id="content">
+	<h1>
+	<strong>In this section (all boards)</strong> • 
+		<nav>
+			<a href="#link1">bacteria and viruses</a> • <a href="#link2">disease and its causes</a> • <a href="#link3">defence against microbes</a> • <a href="#link4">white blood cells</a>
+		</nav>
+	</h1>
+
+	<h2 id="link1">Defining ‘bacteria’ and ‘virus’</h2>
+	<ul>
+		<li><strong>Pathogens</strong> are microorganisms (also called microbes) that cause disease. Bacteria and viruses are types of pathogens. (Edexcel/OCR: Fungi such as athlete’s foot are also pathogens.)</li>
+        <li><strong>Bacteria</strong> are tiny single-celled organisms. Some are harmful, some are harmless and some are even useful, e.g. for making dairy foods and medicines.</li>
+        <li><strong>Viruses</strong> are smaller than bacteria and are often simply shaped, e.g. rods or spheres. They are so small that they can even cause diseases in bacteria.
+        <figure>
+				<img src="assets/images/1.3.1–Smallpox_virus-compressed.jpg" alt="" >
+				<figcaption><em>The smallpox virus – now completely eradicated from Earth by <strong>vaccination</strong> (see Section 1.4)</em></figcaption>
+			</figure>
+            </li>
+              
+	</ul>
+	
+
+	<h2 id="link2">Disease and its causes</h2>
+	<ul>
+		<li>Diseases are abnormal conditions affecting the body. They can be infectious or inherited. They can be common and mild (e.g. a cold) or less common and serious (e.g. smallpox).</li>
+        <li>Infectious disease occurs when pathogens in our environment get into the body. They are called <strong>infectious</strong> because they can spread.</li>
+        <li>Infectious diseases spread in different ways, e.g. contaminated food/drink in the stomach; droplets in the air inhaled from someone sneezing/coughing; directly into the blood via wounds; by <strong>vectors</strong> such as mosquitos; in body fluids (e.g. HIV).</li>
+        <li>Bacteria and viruses reproduce quickly inside the body. Viruses attack cells in the body, destroying them. Bacteria multiply by dividing in two, often producing poisons (<strong>toxins</strong>) that make us feel ill. These feelings are the symptoms of illness.</li>
+
+	</ul>
+ 
+	
+	<h2 id="link3">Defence against microbes</h2>
+	<ul>
+        <li>Our skin, and the scabs that form when we cut ourselves, are the outermost natural protection against pathogens entering our body.</li>
+        <li>The mucus in our nose and throat traps pathogens from the air, as do <strong>lysozymes</strong> in our tears; the acid in our stomachs kills pathogens in our food and drink.</li>
+        <li>The Hungarian doctor <strong>Ignaz Semmelweiss</strong> was one of the first to recommend simple hand-washing to stop viruses and bacteria being spread in hospitals (by doctors treating different patients).</li>
+    </ul>
+	
+    
+    <h2 id="link4">White blood cells protect us</h2>
+	<ul>
+		
+        <li>Inside our bodies, a key defence against disease is our white blood cells. They are part of our <strong>immune system</strong>:
+        <figure>
+				<img src="assets/images/1_3_1-compressed.png" alt="" >
+        </figure></li>
+        <li><strong>Antigens</strong> are markers on the outside of a microbe. These markers are unique to that pathogen; specific white blood cells in our bodies create specific <strong>antibodies</strong> for specific pathogens. There are three ways that red blood cells kill pathogens:
+        <figure>
+				<img src="assets/images/1_3_2-compressed.png" alt="" >
+        </figure></li>
+         <li>OCR: <strong>Memory cells</strong> are white blood cells that defend against a second infection by a pathogen; they act more quickly the second time around.</li>
+         <li>OCR: Viruses mutate very quickly; their antigens change, which is why we can catch a common illness like the flu multiple times.</li>
+         <li>OCR: In a wound, redness, swelling and pus are positive signs of dead bacteria and used white blood cells: our immune system is working well.</li>
+           </ul>
+	
+
+</section>
+
+<!-- end content -->
+ 
+<script type="text/javascript" charset="utf-8">
+	window.onload =  function() {
+		Ti.App.fireEvent('page_loaded',{});
+		var video = document.getElementById('video');
+
+		video.addEventListener('click',function(){
+			Ti.App.fireEvent('play_clip',{});
+		},false);
+	}
+</script>
+
+</body>
+</html>

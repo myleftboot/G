@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset=utf-8 />
+<meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0;">
+<link rel="stylesheet" href="css/style.css"  type="text/css" media="screen" />
+<script type="text/javascript" charset="utf-8" src="js/smooth.js"></script>
+</head>
+<body>
+
+<!-- start content -->
+
+<section id="content">
+	<h1>
+	<strong>A 10-point exam preparation plan</strong> • 
+		<nav>
+			<a href="#link1">before the exam</a> • <a href="#link2">during the exam</a>
+		</nav>
+	</h1>
+
+	<h2 id="link1">Before the exam</h2>
+	<ul>
+        <li><strong>Plan your revision schedule</strong> – and stick to it. How many weeks of revision do you have? Decide how much time you will revise each week, and divide that time between your subjects. Your weaker subjects will need more time than your stronger ones. A revision notepad/book is essential.</li>
+        <li><strong>Plan your revision method</strong> – Decide what resources you will use for revision – your textbook, this App, past exam papers – and how you will use them. For example, you might quickly read up on a topic in the morning, on the train or bus, using the App. Then you might make your own additional notes in the evening using your textbook. As the exam approaches you will want to concentrate more on actual practice, tackling exam-style questions.</li>
+        <li><strong>Revise in short periods of 45 minutes to 1 hour</strong> – Take a break for a drink, lunch or dinner. Get away from your desk for 15 minutes or half an hour – when you come back you will be refreshed. You may want to revise 3 or 4 hours on a Sunday afternoon: breaking this time up will make it seem less daunting. </li>
+        <li><strong>Give yourself an even longer break!</strong> – Time off helps you relax and will make your concentrated study periods more productive: your normal life should continue! Take time to socialise with friends, play sport, watch a film, whatever – find a bit of time once a week to do something you enjoy.</li>
+        <li><strong>Attempt practice exam questions under exam conditions </strong> – Attempt the whole question in one go. If your exam paper is a 60-mark paper and your practice question contains 6 marks, the question should take you about 5–6 minutes.</li>
+        <li><strong>Check your answers; clarify any mistakes or points of confusion with your teacher</strong>. Do this soon after you have tackled the question, while it is fresh in your mind. Your teacher will be able to show you the weaknesses in your answer.</li>
+		                
+        
+	</ul>
+	
+
+	<h2 id="link2">During the exam</h2>
+	<ul>
+        <li><strong>Skim the whole question paper before attempting any questions</strong> This should only take you a couple of minutes. It will give you a complete sense of what is in store, e.g. how many marks are available for each question and which questions you think are more difficult.</li>
+        <li><strong>Take care to understand what the question is looking for, based on its wording</strong> – ‘State …’ is looking for a short factual answer; ‘Describe …’ is looking for a more detailed answer; ‘Explain ...’ is looking for deeper knowledge and understanding; ‘Suggest …’ may be looking for ideas that may require some creative thinking – remember these will need to be based on scientific evidence.</li>
+        <li><strong>If you get stuck on a question, do not dwell on it for more than a minute or two</strong> – otherwise you will quickly lose valuable time! Move on to a question that you feel confident about: this will help you accumulate marks and maintain your rhythm; you can always go back to the tough question towards the end of the exam.</li>
+        <li><strong>Short notes, spider diagrams and sketches can help you gain marks if you are running out of time</strong> . In the last few minutes of the exam, you can still show the examiner your knowledge and understanding of the question in a more visual way, rather than using full sentences and paragraphs.</li>
+        
+		                
+        
+	</ul>
+ 
+	
+
+</section>
+
+<!-- end content -->
+ 
+<script type="text/javascript" charset="utf-8">
+	window.onload =  function() {
+		Ti.App.fireEvent('page_loaded',{});
+		var video = document.getElementById('video');
+
+		video.addEventListener('click',function(){
+			Ti.App.fireEvent('play_clip',{});
+		},false);
+	}
+</script>
+
+</body>
+</html>

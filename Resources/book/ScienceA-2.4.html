@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset=utf-8 />
+<meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0;">
+<link rel="stylesheet" href="css/style.css"  type="text/css" media="screen" />
+<script type="text/javascript" charset="utf-8" src="js/smooth.js"></script>
+</head>
+<body>
+
+<!-- start content -->
+
+<section id="content">
+	<h1>
+	<strong>In this section (AQA, Edexcel)</strong> • 
+		<nav>
+			<a href="#link1">controlling temperature</a> • <a href="#link2">skin and temperature control (Edexcel)</a> • <a href="#link3">controlling blood glucose</a> • <a href="#link4">role of the liver (Edexcel)</a>
+		</nav>
+	</h1>
+
+	<h2 id="link1">Controlling temperature (AQA, Edexcel)</h2>
+	<ul>
+		 <li>Normal body temperature is about 37˚C. This is the temperature at which the <strong>enzymes</strong> enzymes in your cells work best.</li>
+         <li>The control of body temperature is called <strong>thermoregulation</strong>. It is coordinated by the nervous system</li>   
+    </ul>
+	
+
+	<h2 id="link2">The skin and temperature control (Edexcel)</h2>
+	<ul>
+		<li>The temperature outside your body is detected by nerve endings in the layer of skin called the <strong>dermis</strong>. The information is sent along neurones to the <strong>hypothalamus</strong> in the brain. The hypothalamus also monitors the internal body temperature by means of the bloodstream.
+            <figure>
+				<img src="assets/images/" alt="" >
+				<figcaption><em>Section through the skin</em></figcaption>
+            </figure>
+        </li>                
+        <li>If your body temperature falls below about 37˚C, the hypothalamus sends messages to the <strong>erector muscles</strong> in the skin. These make the hairs stand up so that they trap an insulating layer of air (more useful to animals with lots of hair than to humans!).</li>
+        <li>Sebaceous glands produce an oily substance that helps to lubricate the skin and make it waterproof.</li>
+        <li>The hypothalamus also reduces blood flow in blood vessels near the surface of the skin so that less heat is lost from them. The capillaries become narrower (<strong>vasoconstriction</strong>).</li>
+        <li>If your body temperature rises above about 37˚C, the hypothalamus causes the <strong>sweat glands</strong> to produce sweat. The sweat takes heat energy from the skin as it evaporates, so the skin cools down. The hypothalamus also increases blood flow to the skin by making the capillaries wider (<strong>vasodilation</strong>) so more heat is lost.</li>
+        <li>Thermoregulation is a negative feedback mechanism.
+            <figure>
+				<img src="assets/images/" alt="" >
+				<figcaption><em>Thermoregulation</em></figcaption>
+            </figure>
+        </li>
+
+	</ul>
+ 
+	
+	<h2 id="link3">Controlling blood glucose (AQA, Edexcel)</h2>
+	<ul>
+        <li>Glucose provides the energy needed for the reactions that take place inside cells. It is a product of the digestion of carbohydrates. It is important to control the amount of glucose in the bloodstream.</li>
+        <li>Blood glucose levels are controlled by <strong>hormones</strong> released into the bloodstream by the <strong>pancreas</strong>.</li>
+                
+    </ul>
+	
+    <h2 id="link4">Role of the liver (Edexcel)</h2>
+    <ul>
+        <li>When the concentration of glucose in the blood rises too high, the pancreas releases the hormone <strong>insulin</strong> , which travels to the liver. The liver then changes some of the glucose to <strong>glycogen</strong>, which is stored in the liver.</li>
+        <li>When the level of glucose in the blood falls too low, the pancreas produces another hormone, <strong>glucagon</strong>. Glucagon stimulates the liver to convert some glycogen back to glucose and release it into the bloodstream. 
+            <figure>
+				<img src="assets/images/" alt="" >
+				<figcaption><em>The control of blood sugar is a negative feedback loop</em></figcaption>
+            </figure>
+</li>
+
+                
+    </ul>    
+    
+
+</section>
+
+<!-- end content -->
+ 
+<script type="text/javascript" charset="utf-8">
+	window.onload =  function() {
+		Ti.App.fireEvent('page_loaded',{});
+		var video = document.getElementById('video');
+
+		video.addEventListener('click',function(){
+			Ti.App.fireEvent('play_clip',{});
+		},false);
+	}
+</script>
+
+</body>
+</html>

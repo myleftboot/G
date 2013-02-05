@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset=utf-8 />
+<meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0;">
+<link rel="stylesheet" href="css/style.css"  type="text/css" media="screen" />
+<script type="text/javascript" charset="utf-8" src="js/smooth.js"></script>
+</head>
+<body>
+
+<!-- start content -->
+
+<section id="content">
+	<h1>
+	<strong>In this section (AQA)</strong> • 
+		<nav>
+			<a href="#link1">hormones</a> • <a href="#link2">menstrual cycle</a> • <a href="#link3">hormones and the menstrual cycle</a> • <a href="#link4">oral contraceptives</a> • <a href="#link5">fertility treatment</a>
+		</nav>
+	</h1>
+
+	<h2 id="link1">Hormones</h2>
+	<ul>
+        <li>Special <strong>glands</strong> in the body produce chemicals called <strong>hormones</strong>. They are released by the glands into the bloodstream and transported to other parts of the body.</li>
+        <li>Hormones control many of the processes that occur in cells and organs
+            <figure>
+				<img src="assets/images/" alt="" >
+				<figcaption><em>Endocrine glands in the body produce hormones</em></figcaption>
+            </figure>
+        </li>
+        
+    </ul>
+	
+
+	<h2 id="link2">The menstrual cycle</h2>
+	<ul>
+		 <li>The <strong>menstrual cycle</strong> in women lasts about 28 days. Once a month an egg is released by one of the ovaries. It travels down the fallopian tube and the lining of the womb gets thicker.</li>                
+         <li>If the egg is fertilised by a sperm, it embeds itself in the thickened lining of the womb. The woman is pregnant.</li>
+         <li>If the egg is not fertilised, the womb lining and the dead egg are flushed out of the body. This part of the cycle is the monthly period or bleed.
+            <figure>
+				<img src="assets/images/" alt="" >
+				<figcaption><em>The menstrual cycle</em></figcaption>
+            </figure>
+        </li>
+	</ul>
+ 
+	
+	<h2 id="link3">Hormones and the menstrual cycle</h2>
+	<ul>
+       <li>The menstrual cycle is controlled by several different hormones. They work together.</li>
+        <li>The <strong>pituitary gland</strong> in the brain releases <strong>follicle stimulating hormone</strong>(<strong>FSH</strong>). This causes one or more eggs in the ovaries to mature.</li>
+        <li>FSH also causes the ovaries to produce and secrete another hormone, <strong>oestrogen</strong>. Oestrogen stimulates the lining of the womb to become thicker.</li>
+        <li>The oestrogen also acts on the pituitary gland, slowing down production of FSH and stimulating production of another hormone, <strong>luteinising hormone</strong> (<strong>LH</strong>). LH acts on the ovaries. It stimulates the ovary to release a mature egg.
+            <figure>
+				<img src="assets/images/" alt="" >
+				<figcaption><em>Hormones and the menstrual cycle</em></figcaption>
+            </figure>
+        </li>
+                
+    </ul>
+	
+    <h2 id="link4">Oral contraceptives</h2>
+    <ul>
+       <li>Contraception means preventing pregnancy (birth control). An <strong>oral contraceptive</strong> contraceptive is a pill that contains female hormones. These hormones inhibit production of FSH by the pituitary gland. This prevents eggs in the ovaries from maturing.</li>
+       <li>The first oral contraceptive pills contained a lot of oestrogen and often had bad side effects. Newer contraceptives contain oestrogen plus another hormone, progesterone, and have fewer side effects.</li>
+       <li>Pills containing only progesterone have the lowest risk of side effects, but may not work so well.</li>
+                
+    </ul>    
+    
+    <h2 id="link5">Fertility treatment</h2>
+    <ul>
+        <li>Sometimes it is difficult for a woman to become pregnant. This may be because her body does not produce enough FSH.</li>
+        <li>A ‘fertility drug’ contains artificial FSH. This stimulates the eggs in the ovaries to mature. It also increases oestrogen production by the ovaries.</li>
+        <li>Sometimes the problem is caused by blocked or damaged fallopian tubes: <br/>even though mature eggs are released, they do not reach the womb. <strong>In vitro fertilisation</strong> (<strong>IVF</strong>) may help:
+            <ol>
+                <li>The woman is given a fertility drug containing FSH and LH. This causes several eggs to mature at the same time.</li>
+                <li>The mature eggs are removed from the ovary. They are mixed in a Petri dish with sperm collected from the father. Fertilisation occurs</li>
+                <li>The fertilised eggs develop into embryos.</li>
+                <li>When the embryos have become tiny balls of cells, one or two are put directly into the woman’s uterus (womb), where they may develop into a baby.</li>
+            </ol>
+            <figure>
+				<img src="assets/images/" alt="" >
+				<figcaption><em>IVF</em></figcaption>
+            </figure>
+            <figure>
+				<img src="assets/images/2.2.1-Embryo_8_cells.jpg" alt="" >
+				<figcaption><em>A ball of embryo cells</em></figcaption>
+            </figure>
+        </li>
+        <li>IVF is expensive, and it may take several attempts before a pregnancy results, if at all. But it has helped many otherwise childless couples to have children.</li>
+                
+    </ul>    
+
+</section>
+
+<!-- end content -->
+ 
+<script type="text/javascript" charset="utf-8">
+	window.onload =  function() {
+		Ti.App.fireEvent('page_loaded',{});
+		var video = document.getElementById('video');
+
+		video.addEventListener('click',function(){
+			Ti.App.fireEvent('play_clip',{});
+		},false);
+	}
+</script>
+
+</body>
+</html>

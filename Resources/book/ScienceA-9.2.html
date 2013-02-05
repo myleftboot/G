@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset=utf-8 />
+<meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0;">
+<link rel="stylesheet" href="css/style.css"  type="text/css" media="screen" />
+<script type="text/javascript" charset="utf-8" src="js/smooth.js"></script>
+</head>
+<body>
+
+<!-- start content -->
+
+<section id="content">
+	<h1>
+	<strong>In this section</strong> • 
+		<nav>
+			<a href="#link1">chemical equations (all boards)</a> • <a href="#link2">tests for CO<sub>2</sub>/H<sub>2</sub>/O<sub>2</sub> (Edexcel)</a> • <a href="#link3">calcium compounds’ reactions (Edexcel/AQA)</a>
+		</nav>
+	</h1>
+
+	<h2 id="link1">Chemical equations</h2>
+	<ul>
+		<li>In all chemical reactions, the atoms in the <strong>reactants</strong> rearrange to make new <strong>products</strong>. The products are new combinations of the atoms; they have different physical and chemical properties from the reactants.</li>    
+        <li>Total mass before and after a reaction is the same (<strong>conservation of mass</strong>), no atoms are made or destroyed. Product mass is difficult to measure if one of the products is a gas; it may escape into the air.</li>
+        <li><strong>Word equations</strong> describe the chemicals involved in a reaction. Their usefulness is limited: they do not say how much of each reactant/product is present, and they are written only in one language.</li>
+        <li><strong>Symbol equations</strong> show exactly how much of the reactants and products are involved in a chemical reaction. These symbols are internationally recognised and understood.</li>
+        <li>Symbol equations must always balance, with the same number of each atom on each side of the equation. They should also show the state of each product: solid (s), liquid (l), aqueous solution (aq), or gas (g).
+        <br/>
+        <br/><strong><FONT COLOR="D2320A">Example balancing of an equation</FONT></strong>
+            <br/>When tin oxide is heated with hydrogen, these form tin and water vapour. The unbalanced equation shows 2 oxygen atoms on the left, 1 on the right:
+            <br/>
+            <br/>SnO<sub>2</sub> + H<sub>2</sub>  &rArr;  Sn + H<sub>2</sub>O
+            <br/>
+        <br/>We balance any unbalanced parts first; we double the oxygen atoms by doubling the water molecules:
+            <br/>
+            <br/>SnO<sub>2</sub> + H<sub>2</sub>  &rArr;  Sn + 2H<sub>2</sub>O
+            <br/>
+               <br/>But this gives an unbalanced left side: the right side has 4 hydrogens, the left has 2. We double the hydrogen atoms on the left:
+        <br/>
+        <br/>SnO<sub>2</sub>(s) + 2H<sub>2</sub>(g)  &rArr;  Sn(s) + 2H<sub>2</sub>O(g)
+        <br/>
+        <br/>We must also add the physical states.</li>
+    </ul>
+	
+
+	<h2 id="link2">Tests for CO<sub>2</sub>,  H<sub>2</sub>,  O<sub>2</sub> (Edexcel)</h2>
+	<ul>
+        <li>Test for carbon dioxide (<em>also AQA</em>): <strong>Limewater</strong> (calcium hydroxide) becomes cloudy/milky in the presence of carbon dioxide. The milky substance is white insoluble calcium carbonate: 
+            <br/>
+            <br/>Ca(OH)<sub>2</sub>(aq) + CO<sub>2</sub>(g)  &rArr;
+            <br/>CaCO<sub>3</sub>(s) + H<sub>2</sub>O(l)
+            <br/>
+            <br/>
+        </li>    
+        <li>Test for hydrogen: A lighted splint will ‘pop’ with a small squeaky explosion, if held in a test tube that contains hydrogen mixed with air.</li>
+        <li>Test for oxygen: A glowing splint (i.e. lit but then blown out) will relight vigorously if put in a test tube that contains oxygen.</li>
+	</ul>
+ 
+	
+	<h2 id="link3">Reactions of calcium compounds (Edexcel/AQA)</h2>
+	<ul>
+        
+        <li>Calcium oxide combines with water in a vigorous reaction, initially making a white solid; this dissolves <strong>to make limewater</strong> as more water is added:
+        <br/>
+        <br/>CaO(s) + H<sub>2</sub>O(aq)  &rArr;  Ca(OH)<sub>2</sub>(s)
+        <br/>
+        <br/></li>
+        <li><strong>Neutralisation reactions</strong>: calcium oxide (CaO), calcium hydroxide (Ca(OH)<sub>2</sub>) and calcium carbonate (CaCO<sub>3</sub>) are alkalis, and therefore neutralise acids. They have practical uses in farming to treat acidic soils.</li>
+        <li>Coal in power stations burns to release sulfur dioxide, an acidic gas that contributes to <strong>acid rain</strong>:
+        <br/>
+        <br/>S(s) + O<sub>2</sub>(g)  &rArr;  SO<sub>2</sub>(g)
+        <br/>
+        <br/>Calcium carbonate is used in power stations to prevent this; it reacts with and neutralises the acidic gases.</li>
+       
+    </ul>
+	
+    
+</section>
+
+<!-- end content -->
+ 
+<script type="text/javascript" charset="utf-8">
+	window.onload =  function() {
+		Ti.App.fireEvent('page_loaded',{});
+		var video = document.getElementById('video');
+
+		video.addEventListener('click',function(){
+			Ti.App.fireEvent('play_clip',{});
+		},false);
+	}
+</script>
+
+</body>
+</html>

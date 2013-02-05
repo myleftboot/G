@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset=utf-8 />
+<meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0;">
+<link rel="stylesheet" href="css/style.css"  type="text/css" media="screen" />
+<script type="text/javascript" charset="utf-8" src="js/smooth.js"></script>
+</head>
+<body>
+
+<!-- start content -->
+
+<section id="content">
+	<h1>
+	<strong>In this section (all boards)</strong> • 
+		<nav>
+			<a href="#link1">transmitting electricity</a> • <a href="#link2">electromagnetic induction (Edexcel/OCR)</a>
+		</nav>
+	</h1>
+
+	<h2 id="link1">Transmitting electricity: National Grid</h2>
+	<ul>
+		<li>The electrical energy produced by renewable and non-renewable sources is easily distributed using the National Grid, a huge system of electric cables, pylons and transformers across the country.</li>
+        <li>The electric current flowing in a wire heats it. In the National Grid this is a waste of <em>energy</em> (the <em>power</em> the Grid transmits); it adds to the energy lost in cooling towers and gas stacks.</li>
+        <li>The National Grid uses ultra high voltages to reduce energy lost as heat when electricity travels many miles: less current passes through the Grid at this stage, but it can still provide the same power to the end user through clever use of <strong>transformers</strong>.</li>
+        <li>Power stations typically output 25&nbsp;000V (25&nbsp;kV); this is increased to 130&nbsp;000V (130&nbsp;kV) and even higher for transmission on the Grid, before being reduced to 230V in our homes.</li>
+        <li>Transformers change the voltages at each end of the Grid. A <strong>step-up transformer</strong> increases voltage and reduces current, yet a lower current transfers the same power overall: <em>P = V x I</em>. A <strong>step-down transformer</strong> decreases voltage, increases current.
+            <figure>
+				<img src="assets/images/17_2_1-compressed.png" alt="" >
+                <figcaption><em>The National Grid uses a series of different voltages to deliver 230V of electricity to our homes efficiently</em></figcaption>
+            </figure>
+        </li>
+        <li>The 230V sockets in our homes can potentially kill us, but are much safer than the 130&nbsp;kV of the Grid. At this voltage more current now flows in our domestic appliances, heating them, but overall the voltage/current balance is ideal for home use.</li>
+        <li><strong>How a transformer works</strong> (Edexcel): A transformer is two coils of wire wrapped around an iron core. Electricity goes into the primary core and comes out of the secondary core. The number of turns of the coil on each side determines whether the transformer is step up or step down:
+            <figure>
+				<img src="assets/images/17_2_2-compressed.png" alt="" >
+            <figcaption><em>The transformers above have 5/10 coils and 10/5 coils respectively. They ‘step up’ and ‘step down’ voltages in the same proportions</em></figcaption>
+            </figure>
+        </li>
+        <li>Domestic appliances often reduce the 230V at the mains to a voltage suitable for the appliance: many appliances do not need much power.
+         <br/>
+          <br/><strong><FONT COLOR="D2320A">Example</FONT></strong>
+        <br/><em>A laptop computer runs off the mains but only needs 11.5V supply. Its transformer has 5 turns in the secondary coil. How many turns are needed in the primary coil?
+        </em>
+ 
+        
+               
+               
+               
+               
+               
+               
+
+
+
+
+
+
+            <figure>
+				<img src="assets/images/" alt="" >
+            </figure>
+            
+        
+        <br/><em>The transformer needs 100 primary turns.</em>
+        <br/>
+        </li>
+        <li>The National Grid uses huge pylons, which can be hazardous because of their high voltages and are ugly to look at. But it would not be cost effective to put these Grid cables underground, or easy to repair them.
+        <figure>
+				<img src="assets/images/17_2_1-compressed.jpg" alt="" >
+				<figcaption><em>Electricity is a method of energy transfer. It is a <strong>secondary energy source</strong> – its energy comes from a different original source
+</em></figcaption>
+            </figure>
+        </li>
+    
+    </ul>
+	
+
+	<h2 id="link2">Electromagnetic induction (Edexcel/OCR)</h2>
+	<ul>
+		<li>Moving a magnet into a coil of wire (or a coil of wire over a magnet) induces a voltage in the wire. This voltage will itself induce a direct current in the wire, if the wire is part of a complete circuit.</li>
+        <li>This <strong>electromagnetic induction</strong> can be used as a source of electricity in everyday life, e.g. in a wind-up torch or radio, and on a large scale in an electricity generating power station.
+            <figure>
+				<img src="assets/images/magfin.gif" alt="" >
+				<figcaption><em>We move the coil over the magnet, or vice versa. Either way a current is induced, which changes direction (alternates) when the coil and magnet move in opposite directions</em></figcaption>
+            </figure>
+        </li>
+        <li>A continuous current can be generated by moving the coil (or the magnet) constantly, relative to each other. This is how some power stations generate electricity.
+            <figure>
+				<img src="assets/images/17_2_3-compressed.png" alt="" >
+            </figure>
+        </li>
+        <li>The diagram shows that each side of the coil crosses the magnetic field twice, once going up and once going down. This induces an alternating current (AC), as in the video above: a current that changes direction.</li>
+        <li>Electricity generators in power stations create huge induced voltages by wrapping many turns of coil over an iron core, and spinning it at high speed in a very strong magnetic field.</li>
+
+ 
+    </ul>
+	
+    
+</section>
+
+<!-- end content -->
+ 
+<script type="text/javascript" charset="utf-8">
+	window.onload =  function() {
+		Ti.App.fireEvent('page_loaded',{});
+		var video = document.getElementById('video');
+
+		video.addEventListener('click',function(){
+			Ti.App.fireEvent('play_clip',{});
+		},false);
+	}
+</script>
+
+</body>
+</html>

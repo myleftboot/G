@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset=utf-8 />
+<meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0;">
+<link rel="stylesheet" href="css/style.css"  type="text/css" media="screen" />
+<script type="text/javascript" charset="utf-8" src="js/smooth.js"></script>
+</head>
+<body>
+
+<!-- start content -->
+
+<section id="content">
+	<h1>
+	<strong>In this section (AQA/Edexcel)</strong> • 
+		<nav>
+			<a href="#link1">central nervous system</a> • <a href="#link2">neurones</a> • <a href="#link3">structure of neurones (Edexcel)</a> • <a href="#link4">reflexes</a> • <a href="#link5">synapses</a>
+		</nav>
+	</h1>
+
+	<h2 id="link1">Central nervous system</h2>
+	<ul>
+        <li>The brain and spinal cord make up the <strong>central nervous system </strong>(<strong>CNS</strong>). The CNS is linked to sense organs by nerves</li>
+        <li>Cells called <strong>receptors</strong> in <strong>sense organs</strong> detect <strong>stimuli</strong> (changes):
+                <ul>
+                    <li>eyes – light</li>
+                    <li>ears – sound, position, balance</li>
+                    <li>tongue and nose – taste and smell</li>
+                    <li>skin – touch, pressure, pain, temperature</li>
+                </ul> 
+                            
+        </li>
+        <li>A light receptor cell has a nucleus and a cell membrane which contains cytoplasm.</li>    
+    </ul>
+	
+
+	<h2 id="link2">Neurones</h2>
+	<ul>
+        <li>Nerve impulses are transmitted along cells called neurones. A large bundle of neurones is called a <strong>nerve</strong>.</li>
+        <li>A receptor cell responds to a stimulus by sending an electrical impulse along a <strong>sensory neurone </strong> to the CNS.</li>
+        <li>The information in the impulses is coordinated by the brain or spinal cord and an impulse is sent along a <strong>motor neurone</strong> to <strong>effector organs</strong> (muscles or glands).
+             <figure>
+				<img src="assets/images/" alt="" >
+				<figcaption><em>The CNS</em></figcaption>
+            </figure>
+        </li>
+
+	</ul>
+ 
+	
+	<h2 id="link3">Structure of neurones (Edexcel)</h2>
+	<ul>
+        <li>Neurones are long, thin cells with a cell body containing the nucleus. At one end, the <strong>dendron</strong> carries impulses from a sense receptor or another neurone to the cell body. The dendron has many branches to make contact with receptors.</li>
+        <li>From the cell body, the long thin <strong>axon</strong> carries the impulse to the other end of the neurone.
+            <figure>
+				<img src="assets/images/" alt="" >
+				<figcaption><em>Sensory and motor neurones</em></figcaption>
+            </figure>
+        </li>
+        <li>The axon is protected by a fatty coating called a <strong>myelin sheath</strong>. This also makes nerve impulses travel faster.</li>
+    </ul>
+	
+    <h2 id="link4">Reflexes</h2>
+    <ul>
+        <li>A <strong>reflex</strong> action is a response to a stimulus that does not involve the brain. It is faster than a conscious reaction because you don’t have to think about it:
+            <ol>
+                <li>An electrical impulse travels from a sense receptor along a sensory neurone to the spinal cord.</li>
+                <li>The impulse jumps across a tiny gap called a <strong>synapse</strong> to a <strong>relay neurone</strong> in the spinal cord.</li>
+                <li>The relay neurone passes the impulse across another synapse to a motor neurone.</li>
+                <li>The motor neurone transmits the impulse to an effector. The effector may be a muscle, which responds by contracting, or a gland, which releases a chemical.</li>             
+            </ol>
+        </li>
+         <li>This process is called a <strong>reflex arc</strong>. If you tread barefoot on something sharp, a muscle in your leg contracts and quickly lifts your foot away without you needing to think about it.
+            <figure>
+				<img src="assets/images/" alt="" >
+				<figcaption><em>A reflex arc</em></figcaption>
+            </figure>
+        </li>        
+    </ul>    
+    
+    <h2 id="link5">Synapses</h2>
+    <ul>
+        <li>The electrical nerve impulses are carried across the gaps – the <strong>synapses</strong> synapses – between neurones by chemicals called neurotransmitters.</li>
+        <li>Edexcel: <strong>Neurotransmitters</strong> are released at the ends of the axon of one neurone: they cross the gap and attach to receptors on the dendrites of the next neurone. This causes an electrical impulse to travel along the second neurone.
+            <figure>
+				<img src="assets/images/" alt="" >
+				<figcaption><em>Neurotransmitters carry information across a synapse</em></figcaption>
+            </figure>
+        </li>
+    </ul>    
+
+   
+</section>
+
+<!-- end content -->
+ 
+<script type="text/javascript" charset="utf-8">
+	window.onload =  function() {
+		Ti.App.fireEvent('page_loaded',{});
+		var video = document.getElementById('video');
+
+		video.addEventListener('click',function(){
+			Ti.App.fireEvent('play_clip',{});
+		},false);
+	}
+</script>
+
+</body>
+</html>

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset=utf-8 />
+<meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0;">
+<link rel="stylesheet" href="css/style.css"  type="text/css" media="screen" />
+<script type="text/javascript" charset="utf-8" src="js/smooth.js"></script>
+</head>
+<body>
+
+<!-- start content -->
+
+<section id="content">
+	<h1>
+	<strong>In this section (AQA, OCR)</strong> •   
+		<nav>
+			<a href="#link1">making new medicines</a> • <a href="#link2">case studies: thalidomide, statins (AQA)</a>
+		</nav>
+	</h1>
+
+	<h2 id="link1">Making new medicines (AQA, OCR)</h2>
+	<ul>
+		<li>Medicines must be <em>effective</em> (to treat the disease or ailment), <em>safe</em> (not have side effects), and <em>stable</em> (so that they can be stored for a long time).</li>
+		<li>Developing medicines is a long-term process. Companies want to make profits from the years of research and testing, so drugs are often patented.
+		<figure>
+			<img src="assets/images/3.1.1-1024px-Tylenol_rapid_release_pills.jpg" alt="" > <figcaption>Drugs take years to develop, but the profits can make this worthwhile</figcaption>
+		</figure>	
+       
+		</li>
+        <li>New medicines (drugs) are initially tested on different human cells in the lab, then on animals, then in long-term clinical human trials.</li>
+        
+                <li>The lab tests confirm if the drug works against the disease; the animal tests show how a whole living creature reacts and in what dose; the human trials confirm if the drug really works for humans, and is safe.</li>
+
+        <li>Volunteers for human trials of a drug have the disease. A control group in the trial receives the currently-used drug or a placebo (e.g. a fake pill with no drug in it). If the drug being investigated works, <strong>placebo</strong> patients’ health may get worse. Yet trials ‘need this to happen’ to compare.</li>
+
+        <li>In  <strong>blind trials</strong> doctors know they are giving the drug but patients do not. The doctor can then look out for particular effects.</li>
+
+             <li>In <strong>double-blind trials</strong> neither the doctor nor the patient knows if the drug is being given. In this way it is impossible for either of them to make any biased judgments. A third party makes the judgments.</li>
+             
+              <li>In <strong>open label trials</strong> the patient and doctor are both aware of the treatment. Often this occurs in a situation of ‘last resort’, for patients almost certain not to recover. No placebo is given here.</li>
+            
+	</ul>
+	
+
+	<h2 id="link2">Case studies: thalidomide, statins (AQA)</h2>
+	<ul>
+		<li><strong>Thalidomide</strong>  was developed as a sleeping pill in the 1950s. Later it was also found to stop morning sickness in pregnant women. It became a common <strong>prescribed drug</strong>.</li>
+        
+		<li>However, it was not as fully tested as new drugs are tested today. Sadly, many pregnant women who took the drug found that their babies were born with severe limb deformities.</li>
+		
+        <li>Today, thalidomide is still used, with great caution, to treat some forms of cancer. This tells us that drugs and medicines are a difficult moral topic: no drug can be guaranteed completely safe, while at the same time some drugs are not always completely bad for us, either.</li>
+		
+        <li><strong>Statins</strong> are drugs that help the liver to reduce cholesterol in the blood. High blood cholesterol is thought to increase the risk of heart disease, heart attacks and strokes. Statins therefore help to control a very common modern health problem.
+        
+        
+			<figure>
+				<img src="assets/images/3.1.2-Atorvastatin-1HWK-3D-balls.png" alt="" > <figcaption>This 3D model shows the structure of Atorvastatin, one of the best-selling drugs in the world. Its annual sales add up to billions of dollars</figcaption>
+			</figure>	
+		</li>
+		
+        <li>However, there are concerns that these relatively new drugs may affect the liver in additional ways: the theoretical possibility exists that they may damage it. Evidence suggests that statins can raise liver enzymes above normal levels; sometimes they also cause muscle cramp.</li>
+        
+            <li>The effects of statins are still being studied. Although they are thought to be very safe, a doctor cannot be sure at the outset which statin may have adverse effects on a particular patient.</li>
+            
+            
+        
+	</ul>
+ 
+
+</section>
+
+<!-- end content -->
+ 
+<script type="text/javascript" charset="utf-8">
+	window.onload =  function() {
+		Ti.App.fireEvent('page_loaded',{});
+		var video = document.getElementById('video');
+
+		video.addEventListener('click',function(){
+			Ti.App.fireEvent('play_clip',{});
+		},false);
+	}
+</script>
+
+</body>
+</html>

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset=utf-8 />
+<meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0;">
+<link rel="stylesheet" href="css/style.css"  type="text/css" media="screen" />
+<script type="text/javascript" charset="utf-8" src="js/smooth.js"></script>
+</head>
+<body>
+
+<!-- start content -->
+
+<section id="content">
+	<h1>
+	<strong>In this section (AQA, OCR)</strong> • 
+		<nav>
+			<a href="#link1">our cholesterol levels</a> • <a href="#link2">exercise for health</a> • <a href="#link3">inherited factors</a> 
+        </nav>
+	</h1>
+
+	<h2 id="link1">Our cholesterol levels</h2>
+	<ul>
+		<li>Cholesterols are chemicals in the blood that help our cells make essential hormones.</li> 
+        <li>Eating an excess of fatty foods increases our chances of having too much bad cholesterol; this increases our risk of heart disease (OCR; <em>see</em> Section 3.3).</li> 
+            
+	</ul>
+	
+
+	<h2 id="link2">Exercise for health</h2>
+	<ul>
+		<li>Exercise helps us to keep healthy by using energy, building muscle mass and raising our metabolic rate.</li>
+        <li>Regular exercise reduces our overall levels of blood cholesterol and helps us to maintain an ideal weight.</li>
+        <li>When we exercise our good cholesterol increases and our bad cholesterol decreases.</li>
+        <li>Our heart also strengthens with exercise: it can pump the same amount of blood around the body with fewer beats per minute (<em>see</em> ‘heart rate’, Section 3.3).
+        <figure>
+			<img src="assets/images/1.2.1-682px-Nordic_Walking.jpg" alt="" > <figcaption><em>Nordic walking with poles is a good form of moderate exercise</em></figcaption>
+		</figure></li></li>
+	</ul>
+ 
+	
+	<h2 id="link3">Inherited factors</h2>
+	<ul>
+		<li>Inherited factors in our bodies include the proportion of muscle to fat, and our metabolic rate.</li>
+        <li>Our livers produce cholesterol from the fat we eat; the balance of good and bad cholesterol produced is inherited.</li>
+        <li>A very small proportion of the population has high bad cholesterol no matter what they eat; this is an inherited problem.</li>
+        
+    </ul>
+	
+</section>
+
+<!-- end content -->
+ 
+<script type="text/javascript" charset="utf-8">
+	window.onload =  function() {
+		Ti.App.fireEvent('page_loaded',{});
+		var video = document.getElementById('video');
+
+		video.addEventListener('click',function(){
+			Ti.App.fireEvent('play_clip',{});
+		},false);
+	}
+</script>
+
+</body>
+</html>

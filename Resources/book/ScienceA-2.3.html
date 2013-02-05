@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset=utf-8 />
+<meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0;">
+<link rel="stylesheet" href="css/style.css"  type="text/css" media="screen" />
+<script type="text/javascript" charset="utf-8" src="js/smooth.js"></script>
+</head>
+<body>
+
+<!-- start content -->
+
+<section id="content">
+	<h1>
+	<strong>In this section (all boards)</strong> • 
+		<nav>
+			<a href="#link1">homeostasis</a> • <a href="#link2">negative feedback (OCR, Edexcel)</a> • <a href="#link3">controlling water and ions</a> • <a href="#link4">ADH and water balance (OCR)</a> • <a href="#link5">drugs and water balance (OCR)</a> 
+		</nav>
+	</h1>
+
+	<h2 id="link1">Homeostasis</h2>
+	<ul>
+		<li>The nervous system and the hormone system work together to maintain a stable internal environment in your body. This is called <strong>homeostasis</strong>.</li>
+        <li>Homeostasis is important for the functioning of cells and organs.</li>
+        <li>Homeostasis is maintained by control systems in the body. A control system has these features:
+            <figure>
+				<img src="assets/images/" alt="" >
+				<figcaption><em>A control system</em></figcaption>
+            </figure>
+        </li>
+        <li>The internal conditions that are controlled include:
+            <ul>
+                <li>water content</li>
+                <li>concentration of ions</li>
+                <li>temperature – enzymes work best at a particular temperature</li>
+                <li>blood sugar levels – sugar is needed to supply cells with energy</li>
+            </ul> 
+        </li>   
+        
+    </ul>
+	
+
+	<h2 id="link2">Negative feedback (OCR, Edexcel)</h2>
+	<ul>
+		  <li>In a control system, any change causes a response that reverses the change. This is called <strong>negative feedback</strong>. For example, a central heating system detects the temperature in a house. When the temperature drops below a set value, the control centre switches on the boiler. The house temperature rises until it reaches the set value, and the control centre switches the boiler off.
+            <figure>
+				<img src="assets/images/" alt="" >
+				<figcaption><em>A negative feedback loop</em></figcaption>
+            </figure>
+        </li>              
+        <li>Similarly, the body uses negative feedback systems to control its internal environment.</li>
+        
+	</ul>
+ 
+	
+	<h2 id="link3">Controlling water and ions</h2>
+	<ul>
+        <li>Your body takes in water and mineral ions (such as salt) when you eat and drink. Respiration in cells also produces water. Water is lost from your body when you sweat, breathe out, urinate and excrete. Mineral ions are also lost in sweat and urine.</li>
+        <li>The kidneys do two jobs:
+            <ul>
+               <li>removes waste from the body</li>
+               <li>controls the balance of water and ions in the body (osmoregulation).</li>
+            </ul>
+        </li>
+        <li>The kidneys remove excess water and salts from the blood as it passes through them. But if the brain detects that the concentration of ions in the blood plasma is high, the kidneys <strong>reabsorb</strong> reabsorb some of the water back into the blood and produce a smaller volume of dark, concentrated urine.</li>
+        <li>If the concentration of ions in the blood plasma is low, water is not reabsorbed and a larger amount of pale, dilute urine is produced.
+            <figure>
+				<img src="assets/images/2.3.1-999px-Lammnieren.jpg" alt="" >
+				<figcaption><em>Lamb kidneys</em></figcaption>
+            </figure>
+        </li>
+        <li>The amount of water and ions in the blood is affected by temperature, how much you drink and what you eat. On a hot day, or after vigorous exercise, you lose water through sweating faster than you take it in – especially if you don’t drink enough. The kidneys respond by reabsorbing more water and producing less urine.</li>
+        <li>On cold days you lose less water by sweating, so the concentration of ions in your blood is lower. The kidneys reabsorb less water and produce more urine.</li>
+                
+    </ul>
+	
+    <h2 id="link4">ADH and water balance (OCR)</h2>
+    <ul>
+        <li>Water balance in the body is controlled by a negative feedback system. Changes in water and ion concentration of the blood plasma are detected by receptors in the brain.</li>
+        <li>If the concentration of ions becomes too high, the <strong>pituitary</strong> gland releases the hormone <strong>ADH</strong> into the bloodstream. ADH stimulates the kidneys to reabsorb water. A smaller amount of dark concentrated urine is produced, and the concentration of ions in the blood is reduced.</li>
+        <li>If the ion concentration in the blood is too low, less ADH is produced, less water is reabsorbed and a larger volume of dilute urine is produced.
+            <figure>
+				<img src="assets/images/" alt="" >
+				<figcaption><em>Osmoregulation is a negative feedback mechanism</em></figcaption>
+            </figure>
+        </li>
+       
+    </ul>    
+    
+    <h2 id="link5">Drugs and water balance (OCR)</h2>
+    <ul>
+        <li>Some drugs affect the amount of urine produced because they have an effect on ADH production.</li>
+        <li>Alcohol suppresses ADH production, and so results in a larger volume of dilute urine. Drinking too much alcohol can cause dehydration. This may cause headaches and dizziness.</li>
+        <li>The drug Ecstasy increases ADH production; the amount of water reabsorbed into the bloodstream increases and less urine is produced. This dilutes the ion concentration of the blood too much. It can sometimes cause brain damage, or even death.</li>
+        
+                
+    </ul>    
+   
+</section>
+
+<!-- end content -->
+ 
+<script type="text/javascript" charset="utf-8">
+	window.onload =  function() {
+		Ti.App.fireEvent('page_loaded',{});
+		var video = document.getElementById('video');
+
+		video.addEventListener('click',function(){
+			Ti.App.fireEvent('play_clip',{});
+		},false);
+	}
+</script>
+
+</body>
+</html>

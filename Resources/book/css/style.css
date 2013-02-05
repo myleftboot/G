@@ -1,0 +1,142 @@
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video                {margin:0;padding:0;border:0;vertical-align:baseline;background:transparent;}
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section {display:block;}
+ul,ol                                   {list-style-type:none;}
+a img                                   {border:0px;}
+sub,sup									{margin:0;padding:0;line-height:100%;}
+html 									{-webkit-text-size-adjust: none;}
+
+
+@font-face {
+    font-family: 'LucidaGrande';
+    src: url('../assets/fonts/LucidaGrande.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'LucidaGrandeBold';
+    src: url('../assets/fonts/LucidaGrandeBold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+
+body									{font-family:LucidaGrande;background:#f9f9f9;margin-top:0;padding-top:0;overflow:auto;}
+section									{overflow:hidden;height:auto;color:#262626;}
+p                              			{padding:10px 0;}
+h1,h3,h4,h5,h6							{font-size:100%;}
+h1 a									{color:#ee5500;}
+h3                             			{padding:5px 0;}
+h1                             			{font-weight:normal;padding:10px 0;color:#ee5500;padding-top:4px;}
+h2                             			{padding:15px 0 0px 0;color:#008000;font-family:LucidaGrandeBold;}
+
+a                              			{text-decoration:underline;}
+ol										{list-style-type:decimal;}
+ol li									{padding:1px 0;}
+
+figure,video							{margin:10px 0 10px 0px;background1:#f00;}
+figure img 								{border1: 1px solid #999;: 4px solid #749ed1;}
+/*figure img 								{margin-left:7.5%;}*/
+nav										{display:inline;}
+
+table									{width:99%;margin:10px 0 10px 4px;border-spacing:0;}
+.even									{background:#85a6c2;}
+.odd									{background:#85a6c2;}
+/*th,td									{border-left1:1px solid #eee;border-right1:1px solid #fff;color:#555;}*/
+th,td									{border-left1:1px solid #eee;border-right1:1px solid #fff;color:#262626;}
+
+th										{font-weight:bold;background:#B9C9FE;}
+/*td										{border-top:1px solid #fff;background:#E8EDFF;}*/
+td										{border-top:2px solid #fff;background-image: -webkit-linear-gradient(top ,#E8EDFF, #f4f6ff);}
+td:first-child, th:first-child			{border-right:2px solid #fff;}
+
+
+
+
+
+tr:last-child td						{border-bottom:none;} 
+
+video									{border: 1px solid #999;: 4px solid #749ed1;}
+
+
+/* iPad only styles */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+/*	body								{font-size:20px;line-height:25px;}*/
+	body								{font-size:17px;line-height:21px;}
+/*	section	                            {padding:20px;padding-top:10px;padding-left:19px;padding-right:24px; }*/
+	section	                            {padding:20px;padding-top:16px;padding-left:23px;padding-right:24px; }
+/*	h2                             		{font-size:20px;}*/
+	h2                             		{font-size:18px;}
+/*	img									{max-width:60%;}*/
+	figure img 							{margin-left:7.5%;}
+	
+	img									{max-width:85%;}
+
+/*	ul li            					{padding:4px 0 4px 22px;background:url("../img/bullet_ipad.png") no-repeat left 12px;padding-bottom:2px;}*/
+	ul li            					{padding:4px 50px 4px 22px;background:url("../img/bullet_ipad.png") no-repeat left 9px;padding-bottom:2px;}
+	ul li ul li          				{background:url("../img/bullet_orange3.png") no-repeat left 9px;}
+
+/*	figcaption							{font-style:italic;padding:15px 0 0px 0;float:right;width:39%}*/
+/*	figcaption							{font-style:italic;padding:15px 0 0px 0;float1:right;width1:39%}*/
+	figcaption							{font-style:italic;padding:0px 6px 0px 6px;float1:right;width:83%;margin-left:7.5%;font-size:14px;line-height:16px;}
+
+/*	td:first-child, th:first-child		{border-right:2px solid #fff;}*/
+	td									{border-top:2px solid #fff;}
+	th,td								{padding:10px 20px;}
+/*	th									{font-size:18px;}*/
+	th									{font-size:17px;}
+	img.captionless						{margin-left:20%}
+}
+
+
+/*@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation:landscape) {
+	figcaption							{width:67%;color:red;}
+}*/
+
+
+
+/* iPhone only styles */
+@media only screen and (max-device-width: 480px) {
+	body                             	{font-size:15px;line-height:18px;}
+	section			                    {padding:10px;padding-top:0;padding-left:7px;}
+/*	img									{max-width:100%;}*/
+/*	img									{max-width:105%;margin-left:-5%;} */
+	.photo 								{padding-right:10px;}
+	ul li            					{padding:4px 0 4px 17px;background:url("../img/bullet.png") no-repeat left 9px;padding-bottom:2px;}
+	ul li ul li          				{background:url("../img/bullet_orange.png") no-repeat left 9px;}	
+	
+	h2                             		{font-size:15px;}
+/*	figcaption							{font-style:italic;padding:5px 0 0px 0;font-size:12px;}*/
+	figcaption							{font-style:italic;padding:0px 0 0px 0;font-size:14px;margin-left:-10px;margin-right:10px;line-height:16px;}
+/*	td:first-child, th:first-child		{border-right:2px solid #fff;background:#f00;}*/
+
+	th,td								{padding:5px 10px;font-size:14px;}
+	th									{font-size:14px;}
+	td									{width:50%;}
+/*	td									{border-top:2px solid #fff;}*/
+
+}
+
+ 
+@media only screen and (max-device-width: 480px)  and (orientation:portrait) {
+	img									{max-width:299px;margin-left:-5%;}
+	ul li table							{margin-left:-12px;width:104%;border-spacing:0;}
+	
+}
+
+@media only screen and (max-device-width: 480px)  and (orientation:landscape) {
+	img									{max-width:104%;margin-left:-3.75%;}
+	ul li table							{margin-left:-12px;width:458px;border-spacing:0;}
+	
+}
+

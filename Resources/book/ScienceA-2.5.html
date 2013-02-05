@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset=utf-8 />
+<meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0;">
+<link rel="stylesheet" href="css/style.css"  type="text/css" media="screen" />
+<script type="text/javascript" charset="utf-8" src="js/smooth.js"></script>
+</head>
+<body>
+
+<!-- start content -->
+
+<section id="content">
+	<h1>
+	<strong>In this section (AQA, Edexcel)</strong> • 
+		<nav>
+			<a href="#link1">hormones and plant growth</a> • <a href="#link2">phototropism</a> • <a href="#link3">gravitropism</a> • <a href="#link4">uses of plant hormones</a> • <a href="#link5">hormones and fruit growing (Edexcel)</a>
+		</nav>
+	</h1>
+
+	<h2 id="link1">Hormones and plant growth</h2>
+	<ul>
+		<li>Plants as well as animals react to their surroundings: they are sensitive to light, water and the force of gravity.</li>
+        <li>Plant shoots grow towards light, and upwards away from gravity. Roots grow away from light and towards water and the pull of gravity.</li>
+        <li>Plant hormones (plant growth substances) coordinate the plant’s response to stimuli. Unequal distribution of these hormones causes unequal growth rates in cells.</li>    
+    </ul>
+	
+
+	<h2 id="link2">Phototropism</h2>
+	<ul>
+		<li><strong>Phototropism</strong> is the way plants grow in response to light. Shoots grow in the direction of light (positive phototropism) because they need light for photosynthesis.</li>
+        <li>The tip of a shoot produces hormones called <strong>auxins</strong>. Auxins move to the side of the shoot away from the light. They make the cells on that side grow longer than the cells on the shaded side. This causes the shoot to bend in the direction of the light source. 
+            <figure>
+				<img src="assets/images/" alt="" >
+				<figcaption><em>Positive phototropism</em></figcaption>
+            </figure>
+        </li>
+
+
+	</ul>
+ 
+	
+	<h2 id="link3">Gravitropism</h2>
+	<ul>
+        <li><strong>Gravitropism</strong> (or geotropism) is the way plants grow in response to the force of gravity. Roots grow downwards (positive gravitropism), but shoots grow upwards.</li>
+        <li>Roots also produce auxins, but they have a different effect than in shoots. Gravity makes them collect on the lower side of the root, but here they <em>stop</em> the cells from getting longer. So the root bends downwards.</li>
+         <li>In shoots that are growing horizontally, gravity makes auxins collect on the lower side. But in the shoot this makes cells elongate, so the shoot bends and grows upwards.
+            <figure>
+				<img src="assets/images/" alt="" >
+				<figcaption><em>Gravitropism: auxins have different effects on shoots and roots</em></figcaption>
+            </figure>
+        </li>
+       
+    </ul>
+	
+    <h2 id="link4">Uses of plant hormones</h2>
+    <ul>
+        <li>Farmers and gardeners can use artificial plant hormones as <strong>selective weedkillers</strong>. Large doses make plants grow out of control and die. Most weeds have broad leaves which absorb a lot of the hormone, while crop plants with narrow leaves, such as wheat or grass, absorb less and are not affected.</li>
+        <li>Synthetic plant growth hormones are also used as <strong>rooting powders</strong>. Shoots are cut from plants and dipped in the powder before planting in a growing medium. This encourages roots to develop more quickly on the cuttings.</li>
+                
+    </ul>    
+    
+     <h2 id="link5">Hormones and fruit growing (Edexcel)</h2>
+    <ul>
+        <li>Fruits normally develop to protect seeds after pollination, but fruits with no seeds are often preferred for eating or processing. Growers can produce seedless fruit – for example tomatoes or aubergines – by spraying the flowers with plant hormones. The fruits develop even though no seeds are produced.
+        <figure>
+				<img src="assets/images/2.5.1-768px-Valencia_market_-_aubergines.jpg" alt="" >
+				<figcaption><em>Aubergines can be produced seedless by spraying their flowers with plant hormone</em></figcaption>
+            </figure>
+        </li>
+        <li>Seedless grapes are naturally seedless, but growers spray them with artificial plant hormones to make the fruit grow bigger.</li>
+         <li>The ripening of fruit is also controlled by plant hormones. Fruit can be picked before it is ripe, so it is less likely to be damaged. Spraying with hormones during transportation means that the fruit ripens and arrives at the supermarket in perfect condition. </li>
+       
+    </ul>    
+    
+    
+    </section>
+
+<!-- end content -->
+ 
+<script type="text/javascript" charset="utf-8">
+	window.onload =  function() {
+		Ti.App.fireEvent('page_loaded',{});
+		var video = document.getElementById('video');
+
+		video.addEventListener('click',function(){
+			Ti.App.fireEvent('play_clip',{});
+		},false);
+	}
+</script>
+
+</body>
+</html>
